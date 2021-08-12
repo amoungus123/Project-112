@@ -1,0 +1,114 @@
+
+<html>
+    <head>
+      <title>MobileNet</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+      <col>
+      <div>
+          <li>
+              <b>Test Image - </b><img src="sciisser.jpg" class="img-responsive" id="test_img">
+          </li>
+          <h5>Output on <b>Microsot Azure</b> - 
+            <span> a pair of scissors</span>
+          </h5>
+          <h5>Output on <b>Mobilenet Model</b> - 
+            <span> sunglass </span>
+          </h5>
+          <div class="mini_result">
+              <h4>Result - </h4>
+              <hr>
+              <h4> Microsot Azure is more accurate</h4>
+          </div>
+
+          <br> <br> <br>
+
+          <li>
+            <b>Test Image - </b><img src="mouse.jpg" class="img-responsive" id="test_img">
+        </li>
+        <h5>Output on <b>Microsot Azure</b> - 
+          <span> a piece of luggage</span>
+        </h5>
+        <h5>Output on <b>Mobilenet Model</b> - 
+          <span> mouse, computer mouse </span>
+        </h5>
+        <div class="mini_result">
+            <h4>Result - </h4>
+            <hr>
+            <h4> Mobilenet Model is more accurate</h4>
+        </div>
+        
+        <br> <br> <br>
+
+        <li>
+          <b>Test Image - </b><img src="book.jpg" class="img-responsive" id="test_img">
+      </li>
+      <h5>Output on <b>Microsot Azure</b> - 
+        <span> undefined</span>
+      </h5>
+      <h5>Output on <b>Mobilenet Model</b> - 
+        <span> menu </span>
+      </h5>
+      <div class="mini_result">
+          <h4>Result - </h4>
+          <hr>
+          <h4> Mobilenet Model is more accurate</h4>
+      </div>
+              
+      <br> <br> <br>
+
+      <li>
+        <b>Test Image - </b><img src="tape.jpg" class="img-responsive" id="test_img">
+    </li>
+    <h5>Output on <b>Microsot Azure</b> - 
+      <span> a close up of a bowl </span>
+    </h5>
+    <h5>Output on <b>Mobilenet Model</b> - 
+      <span> loupe, jeweler's loupe</span>
+    </h5>
+    <div class="mini_result">
+        <h4>Result - </h4>
+        <hr>
+        <h4>Microsot Azure is more accurate </h4>
+    </div>
+            
+    <br> <br> <br>
+
+    <li>
+      <b>Test Image - </b><img src="cal.jpg" class="img-responsive" id="test_img">
+  </li>
+  <h5>Output on <b>Microsot Azure</b> - 
+    <span> a keyboard </span>
+  </h5>
+  <h5>Output on <b>Mobilenet Model</b> - 
+    <span> modem </span>
+  </h5>
+  <div class="mini_result">
+      <h4>Result - </h4>
+      <hr>
+      <h4> Microsot Azure is more accurate</h4>
+  </div>
+<hr>
+<br>
+
+<br>
+      </div>
+      <p>I tested 5 images. Microsot Azure predicted 3 correctly, Mobilenet Model predicted 2 correctly</p>
+      <h3>Microsot Azure is more accurate</h3>
+      <hr>
+  
+  
+      
+  <script src="main.js"></script>
+    </body>
+  </html>
